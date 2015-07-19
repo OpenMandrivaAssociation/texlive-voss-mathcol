@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-voss-mathcol
 Version:	0.1
-Release:	4
+Release:	5
 Summary:	Typesetting mathematics in colour, in (La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/math/voss/mathCol
