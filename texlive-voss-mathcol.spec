@@ -1,18 +1,12 @@
-# revision 32954
-# category Package
-# catalog-ctan /info/math/voss/mathCol
-# catalog-date 2012-08-16 22:17:39 +0200
-# catalog-license noinfo
-# catalog-version 0.1
 Name:		texlive-voss-mathcol
-Version:	0.1
-Release:	6
+Version:	32954
+Release:	1
 Summary:	Typesetting mathematics in colour, in (La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/math/voss/mathCol
 License:	NOINFO
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/voss-mathcol.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/voss-mathcol.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/voss-mathcol.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/voss-mathcol.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -35,7 +29,7 @@ understand German.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
