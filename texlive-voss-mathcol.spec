@@ -1,6 +1,6 @@
 Name:		texlive-voss-mathcol
 Version:	32954
-Release:	1
+Release:	2
 Summary:	Typesetting mathematics in colour, in (La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/math/voss/mathCol
