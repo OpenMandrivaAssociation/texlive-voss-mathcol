@@ -3,7 +3,7 @@ Version:	32954
 Release:	2
 Summary:	Typesetting mathematics in colour, in (La)TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/math/voss/mathCol
+URL:		https://www.ctan.org/tex-archive/info/math/voss/mathCol
 License:	NOINFO
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/voss-mathcol.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/voss-mathcol.doc.r%{version}.tar.xz
